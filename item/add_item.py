@@ -124,7 +124,7 @@ def add_item_tab():
     item_data = {
         "itemnameenglish": item_name_en.strip(),
         "itemnamekurdish": item_name_ku.strip(),
-        "classcat":        class_cat,
+        "classcat":        class_cat or None,
         "departmentcat":   department_cat or None,
         "sectioncat":      section_cat or None,
         "familycat":       family_cat or None,
