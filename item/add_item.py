@@ -47,7 +47,7 @@ def add_item_tab():
         item_name_ku = st.text_input("Item Name (Kurdish)")
 
         class_cat = st.selectbox(
-            req("Class Category"), [""] + dropdown_values["Class Category"]
+            "Class Category", [""] + dropdown_values["Class Category"]
         )
 
         department_cat = st.selectbox(
